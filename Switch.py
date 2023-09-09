@@ -21,7 +21,7 @@ import getpass
 #declaracion de variables
  
 User = ('Angie')
-Clave = ('code2023')
+Clave = ('1098')
  
 #declaracion de funciones
 def login(usuario,passw):
@@ -46,11 +46,11 @@ else:
 print("1. Registro\n 2. Compra \n 3. Salir")
 ang = 0
 
-if ang == 1:
+if ang == "1":
     print("Registro")
-elif ang == 2:
+elif ang == "2":
     print("Compra")
-elif ang == 3:
+elif ang == "3":
     print("Salir")
 else:
     print("Seleccione una opción valida")

@@ -15,7 +15,7 @@ def login(usuario,passw):
         if passw in registeredPW:
             return 1
         else:
-            print("\n\tPassword does not match...\n")
+            print("\n\tContraseña incorrecta\n")
     else:
         return 2
  
