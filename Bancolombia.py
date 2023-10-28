@@ -1,7 +1,7 @@
 # Base de datos de empleados y salarios
 empleados = {
-    1: {"id": 1, "nombres": "Angie", "apellidos": "Gutierrez", "cargo": "Desarrollador", "area": "Tecnología", "salario": 2000000},
-    2: {"id": 2, "nombres": "Andres", "apellidos": "David", "cargo": "Diseñador", "area": "Creativo", "salario": 1800000},
+    1: {"id": 1, "nombres": "Angie", "apellidos": "Gutierrez", "cargo": "Desarrolladora", "area": "Tecnología", "salario": 2000000},
+    2: {"id": 2, "nombres": "Andres", "apellidos": "David", "cargo": "Analista", "area": "Gestión Humana", "salario": 1800000},
     # Agrega más empleados según sea necesario
 }
 
