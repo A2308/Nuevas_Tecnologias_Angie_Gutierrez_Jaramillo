@@ -1,20 +1,20 @@
-# Base de datos de empleados y salarios
+
 empleados = {
     1: {"id": 1, "nombres": "Angie", "apellidos": "Gutierrez", "cargo": "Desarrolladora", "area": "Tecnología", "salario": 2000000},
     2: {"id": 2, "nombres": "Andres", "apellidos": "David", "cargo": "Analista", "area": "Gestión Humana", "salario": 1800000},
-    # Agrega más empleados según sea necesario
+
 }
 
-# Función para calcular el salario neto
+
 def calcular_salario_neto(salario):
-    salario_minimo = 1000000  # Supongamos que el salario mínimo es 1,000,000
+    salario_minimo = 1160000
     if salario < 2 * salario_minimo:
-        salario_neto = salario + 106454  # Auxilio de transporte
+        salario_neto = salario + 106454  
     else:
         salario_neto = salario
     return salario_neto
 
-# Función principal
+
 def gestionar_nominas():
     while True:
         print("\n1. Listar empleados\n2. Buscar colilla de pago\n3. Ver pago total de la nómina\n4. Salir")
@@ -48,5 +48,4 @@ def gestionar_nominas():
         else:
             print("Opción no válida. Inténtelo de nuevo.")
 
-# Llamada a la función principal
 gestionar_nominas()
